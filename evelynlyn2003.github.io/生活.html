@@ -3,11 +3,6 @@
         <head>
             <!--下面那行表達的是網頁編碼-->
             <meta charset="UTF-8"/>
-            <script
-            src="https://code.jquery.com/jquery-3.6.1.js"
-            integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
-            crossorigin="anonymous">
-            </script>
             <title>
                 生活
             </title>
@@ -15,7 +10,6 @@
         <body style="background-color:rgb(253, 249, 238);">
             <table style="width:100%; height:700px;">
             <tr>
-            
                 <td style="width:392px; text-align:left;"><img src="lu-5.jpg" width="500" height="700"/></td>
                     <h1 style="background-color:rgb(175,176,178);">狗狗貓貓生活的不同</h1>
                         <td>
@@ -52,45 +46,5 @@
                         </td>    
             </tr>
         </table>
-        
-        
-          <!-- jquery -->
-          
-          <script>
-           function myFunction(){
-            alert("謝謝您的答覆!!");}
-
-            $(document).ready(function() {
-              $("button").addClass(".button:hover .button:active");
-          
-            });
-          </script>
-          
-          <style>
-            .animated {
-                color: red;
-            }
-            
-            .button:active{
-                background-color: rgb(224, 107, 71);
-                box-shadow: 0 5x p#666;
-                transform: translate(4px);
-
-            }
-        </style>
-          <div class="container-fluid">
-            <h3 class="text-primary text-center">這資訊是否對你認識狗貓有幫助</h3>
-            <div class="row">
-              <div class="col-xs-6">
-                <div class="well" id="left-well">
-                 <button class="button" onclick="myFunction()" id="target1">有幫助</button>
-                  <button class="button" onclick="myFunction()" id="target2">還好</button>
-                  <button class="button" onclick="myFunction()" id="target3">沒有幫助</button>
-                 
-                </div>
-              </div>
-            </div>
-          </div>
-
         </body>
     </html>
